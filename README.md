@@ -35,3 +35,13 @@ Documentei as conclusões obtidas e insights relevantes sobre os dados e as prev
 
 ## Conclusões
 Este projeto proporcionou uma excelente oportunidade para aplicar técnicas de Machine Learning na análise de risco de crédito utilizando uma abordagem no-code com o SageMaker Canvas. Aprendi sobre a importância da preparação de dados, da configuração correta das variáveis e da análise crítica das métricas de performance do modelo.
+
+## Imagens
+
+Aqui estão algumas capturas de tela do processo de análise e previsão:
+
+### Análise do Modelo
+![Análise do Modelo](imgs/analyze.png)
+
+### Realização de Previsões
+![Realização de Previsões](imgs/predict.png)
