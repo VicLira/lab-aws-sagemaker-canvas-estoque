@@ -1,47 +1,37 @@
-# 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
-
-Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!
+# 📊 Análise de Risco de Crédito Inteligente na AWS com SageMaker Canvas
+Bem-vindo ao meu projeto de "Análise de Risco de Crédito Inteligente na AWS com SageMaker Canvas". Neste projeto, utilizei o SageMaker Canvas para criar previsões de risco de crédito baseadas em Machine Learning (ML). Abaixo, descrevo os passos que segui para completar este desafio.
 
 ## 📋 Pré-requisitos
+Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira este repositório AWS Cloud Quickstart.
 
-Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira nosso repositório [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
-
-
-## 🎯 Objetivos Deste Desafio de Projeto (Lab)
-
-![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
-
-- Dê um fork neste projeto e reescreva este `README.md`. Sinta-se à vontade para detalhar todo o processo de criação do seu Modelo de ML para uma "Previsão de Estoque Inteligente".
-- Para isso, siga o [passo a passo] descrito a seguir e evolua as suas habilidades em ML no-code com o Amazon SageMaker Canvas.
-- Ao concluir, envie a URL do seu repositório com a solução na plataforma da DIO.
-
+## 🎯 Objetivos Deste Projeto
+O objetivo deste projeto é aplicar técnicas de Machine Learning no SageMaker Canvas para realizar uma análise de risco de crédito. Compartilho aqui a metodologia e as etapas que segui para atingir esse objetivo.
 
 ## 🚀 Passo a Passo
+### 1. Seleção do Dataset
+Naveguei até a pasta datasets deste repositório para explorar os dados disponíveis.
+Decidi utilizar um dataset de histórico de crédito contendo informações sobre clientes e suas respectivas classificações de risco.
+Fiz o upload do dataset no SageMaker Canvas para iniciar a análise.
 
-### 1. Selecionar Dataset
+### 2. Preparação dos Dados
+No SageMaker Canvas, importei o dataset que selecionei.
+Analisei as variáveis disponíveis e configurei as variáveis de entrada (como histórico de pagamentos, renda, idade, etc.) e a variável de saída (risco de crédito).
+Realizei uma limpeza inicial dos dados para remover entradas duplicadas e preencher valores faltantes.
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
+### 3. Construção e Treinamento do Modelo
+Configurei o SageMaker Canvas para iniciar o treinamento do modelo de Machine Learning.
+Ajustei os parâmetros de treinamento conforme necessário para otimizar o desempenho do modelo.
+O treinamento do modelo levou algum tempo, devido ao tamanho do dataset e à complexidade do problema.
 
-### 2. Construir/Treinar
+### 4. Análise do Modelo
+Após o treinamento, examinei as métricas de performance do modelo, como acurácia, precisão e recall.
+Identifiquei as principais características que influenciam as previsões de risco de crédito.
+Realizei ajustes no modelo e re-treinei até obter um desempenho satisfatório.
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+### 5. Realização de Previsões
+Com o modelo treinado, utilizei-o para fazer previsões de risco de crédito em novos dados de clientes.
+Exportei os resultados das previsões para análise posterior.
+Documentei as conclusões obtidas e insights relevantes sobre os dados e as previsões de risco.
 
-### 3. Analisar
-
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
-
-### 4. Prever
-
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
-
-## 🤔 Dúvidas?
-
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+## Conclusões
+Este projeto proporcionou uma excelente oportunidade para aplicar técnicas de Machine Learning na análise de risco de crédito utilizando uma abordagem no-code com o SageMaker Canvas. Aprendi sobre a importância da preparação de dados, da configuração correta das variáveis e da análise crítica das métricas de performance do modelo.
