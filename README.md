@@ -41,7 +41,7 @@ Este projeto proporcionou uma excelente oportunidade para aplicar técnicas de M
 Aqui estão algumas capturas de tela do processo de análise e previsão:
 
 ### Análise do Modelo
-![Análise do Modelo](imgs/analyze.png)
+![Análise do Modelo](https://github.com/VicLira/lab-aws-sagemaker-canvas-estoque/blob/main/imgs/analyze.PNG?raw=true)
 
 ### Realização de Previsões
-![Realização de Previsões](imgs/predict.png)
+![Realização de Previsões](https://github.com/VicLira/lab-aws-sagemaker-canvas-estoque/blob/main/imgs/predict.PNG?raw=true)
